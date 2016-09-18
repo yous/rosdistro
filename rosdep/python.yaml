@@ -1785,7 +1785,7 @@ python-qt5-bindings:
   fedora: [python-qt5, sip]
   gentoo: [dev-python/PyQt5]
   ubuntu:
-    trusty: [libpyside2-dev, libshiboken2-dev, pyqt5-dev, python-pyqt5, python-pyside2, python-sip-dev, shiboken2]
+    trusty: [python-sip-dev]
     wily: [libpyside2-dev, libshiboken2-dev, pyqt5-dev, python-pyqt5, python-pyqt5.qtsvg, python-pyside2, python-sip-dev, shiboken2]
     xenial: [libpyside2-dev, libshiboken2-dev, pyqt5-dev, python-pyqt5, python-pyqt5.qtsvg, python-pyside2, python-sip-dev, shiboken2]
 python-qt5-bindings-gl:
@@ -1794,7 +1794,7 @@ python-qt5-bindings-gl:
   fedora: [python-qt5]
   gentoo: [dev-python/PyQt5]
   ubuntu:
-    trusty: [python-pyqt5.qtopengl]
+    trusty: []
     wily: [python-pyqt5.qtopengl]
     xenial: [python-pyqt5.qtopengl]
 python-qwt5-qt4:
