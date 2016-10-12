@@ -362,7 +362,7 @@ boost:
         packages: [libboost-all-dev]
     trusty:
       apt:
-        packages: [libboost-all-dev]
+        packages: []
     trusty_python3:
       apt:
         packages: [libboost-all-dev]
@@ -1056,7 +1056,7 @@ gtest:
   macports: [ros-gtest]
   opensuse: [googletest-devel]
   rhel: [gtest-devel]
-  ubuntu: [libgtest-dev]
+  ubuntu: []
 gtk-doc-tools:
   arch: [gtk-doc]
   debian: [gtk-doc-tools]
@@ -1331,10 +1331,10 @@ libboost-random:
   fedora: [boost-random]
   ubuntu:
     precise: [libboost-random1.46.1]
-    trusty: [libboost-random1.54.0]
+    trusty: []
 libboost-random-dev:
   fedora: [boost-devel]
-  ubuntu: [libboost-random-dev]
+  ubuntu: []
 libcairo2-dev:
   arch: [cairo]
   fedora: [cairo-devel]
@@ -1578,7 +1578,7 @@ libgflags-dev:
   gentoo:
     portage:
       packages: [dev-cpp/gflags]
-  ubuntu: [libgflags-dev]
+  ubuntu: []
 libgfortran3:
   arch: [gcc-libs]
   debian: [libgfortran3]
@@ -1640,7 +1640,7 @@ libgoogle-glog-dev:
   gentoo:
     portage:
       packages: [dev-cpp/glog]
-  ubuntu: [libgoogle-glog-dev]
+  ubuntu: []
 libgphoto-dev:
   arch: [libgphoto2]
   debian: [libgphoto2-2-dev]
@@ -2034,7 +2034,7 @@ libopencv-dev:
   macports: [opencv]
   ubuntu:
     saucy: [libopencv-dev]
-    trusty: [libopencv-dev]
+    trusty: []
     utopic: [libopencv-dev]
     vivid: [libopencv-dev]
     wily: [libopencv-dev]
@@ -2356,42 +2356,42 @@ libqt5-core:
   debian: [libqt5core5a]
   fedora: [qt5-qtbase]
   gentoo: [dev-qt/qtcore]
-  ubuntu: [libqt5core5a]
+  ubuntu: []
 libqt5-gui:
   arch:   [qt5-base]
   debian: [libqt5gui5]
   fedora: [qt5-qtbase-gui]
   gentoo: [dev-qt/qtgui]
-  ubuntu: [libqt5gui5]
+  ubuntu: []
 libqt5-network:
   arch:   [qt5-base]
   debian: [libqt5network5]
   fedora: [qt5-qtbase]
   gentoo: [dev-qt/qtnetwork]
-  ubuntu: [libqt5network5]
+  ubuntu: []
 libqt5-opengl:
   arch:   [qt5-base]
   debian: [libqt5opengl5]
   fedora: [qt5-qtbase]
   gentoo: [dev-qt/qtopengl]
-  ubuntu: [libqt5opengl5]
+  ubuntu: []
 libqt5-opengl-dev:
   arch:   [qt5-base]
   debian: [libqt5opengl5-dev]
   fedora: [qt5-qtbase]
   gentoo: [dev-qt/qtopengl]
-  ubuntu: [libqt5opengl5-dev]
+  ubuntu: []
 libqt5-sql:
   arch:   [qt5-base]
   fedora: [qt5-qtbase]
   gentoo: [dev-qt/qtsql]
-  ubuntu: [libqt5sql5]
+  ubuntu: []
 libqt5-widgets:
   arch:   [qt5-base]
   debian: [libqt5widgets5]
   fedora: [qt5-qtbase]
   gentoo: [dev-qt/qtwidgets]
-  ubuntu: [libqt5widgets5]
+  ubuntu: []
 libqtgui4:
   arch: [qt4]
   debian: [libqtgui4]
@@ -2399,7 +2399,7 @@ libqtgui4:
   gentoo:
     portage:
       packages: [dev-qt/qtgui]
-  ubuntu: [libqtgui4]
+  ubuntu: []
 libqtwebkit-dev:
   fedora: [qtwebkit-devel]
   ubuntu: [libqtwebkit-dev]
@@ -3334,7 +3334,7 @@ python-nose:
 python-opencv:
   fedora: [opencv-python]
   gentoo: [media-libs/opencv]
-  ubuntu: [python-opencv]
+  ubuntu: []
 python-pydot:
   fedora: [pydot]
   gentoo:
@@ -3376,13 +3376,13 @@ qt5-qmake:
   debian: [qt5-qmake]
   fedora: [qt5-qtbase-devel]
   gentoo: [dev-qt/qtcore]
-  ubuntu: [qt5-qmake]
+  ubuntu: []
 qtbase5-dev:
   arch:   [qt5-base]
   debian: [qtbase5-dev]
   fedora: [qt5-qtbase-devel]
   gentoo: [dev-qt/qtcore]
-  ubuntu: [qtbase5-dev]
+  ubuntu: []
 qtmobility-dev:
   arch: [qtmobility]
   debian: [qtmobility-dev]
